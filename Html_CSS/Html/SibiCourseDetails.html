@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>my first.sibi</title>
+
+<link rel="stylesheet" href="SibiCourseDetails.css">
+
+<script type="text/javascript" src="SibiCourseDetails.js"></script>
+
+
+
+
+
+</head>
+<body>
+
+<h1>Course Details</h1>
+<label for ="cid" >Enter Your Course Id</label>
+
+<input  type="text"  name="courseid">
+<br></br>
+
+
+ <label for="CName">Enter Your Course Name</label> 
+<select name="CName" id="1">
+    <option value="Be">B.E</option>
+    <option value="ME">M.E</option>
+    <option value="B.SC">B.Sc</option>
+    <option value="M.Sc">M.Sc</option>
+
+        
+  </select>
+<br></br>
+<label for="years">Course Duration </label>
+<select name="years" id="1">
+    <option value="3">3 Years</option>
+    <option value="4">4 Years</option>
+        
+  </select>
+  <br></br>
+  <p> Select one college from the given options:
+
+
+  <select name="collegename" id="2">
+    <option value="sec">Sengunthar Engineering college</option>
+    <option value="an">Anna University</option>
+    <option value="KSR">KSR Institution</option>
+    <option value="Kongu">Kongu Engineering College</option>
+    <option value="PSG">PSG Engineering College</option>
+    <option value="APA">APA College</option>
+  </select>
+</p>
+  
+ 
+  <br><br>
+<label for="Date">Start Date </label>
+<input  type="date"  name="Date">
+<br></br>
+<label for="seats">Seats Available </label>
+<input  type="text"  name="seats">
+<br></br>
+
+<br></br>
+
+<p>
+  Select a radio button and click on Login.
+</p>
+Gender:
+<input type="radio" name="gender" value="Male">Male
+<input type="radio" name="gender" value="Female">Female
+<input type="radio" name="gender" value="Others">Others
+<br>
+
+<br>
+
+<p> The value of the option selected is:
+  <span class="output"></span>
+</p>
+<!--<a href="https://www.w3schools.com/">Click to Login</a>!-->
+
+<button onclick="displayRadioValue()"> Login </button>
+
+</body>
+</html>

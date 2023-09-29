@@ -1,0 +1,21 @@
+.Gender
+{
+    text-align: center;
+    background-color:bisque;
+    font-size: xx-large;
+}
+.radio
+{
+
+    background-color:thistle;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.option
+{
+
+    text-align: center;
+    font-weight: 400;
+
+}
